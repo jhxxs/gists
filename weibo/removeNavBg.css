@@ -1,0 +1,23 @@
+/* 去除国庆节时期微博导航栏的大红色背景，大红色看着很突兀 */
+:root {
+	--hack-color-black: #1b1b1b;
+	--hack-color-white: 255, 255, 255;
+}
+div[class*="Nav_wrap_"] {
+	background: var(--hack-color-black);
+}
+div[class*="Nav_wrap_"] .woo-panel-bottom {
+	border-bottom: 0;
+}
+div[class*="Nav_panel_"] {
+	background-image: none;
+}
+div[class*="Ctrls_item_"]:hover {
+	background-color: rgba(var(--hack-color-white), 0.2);
+}
+div[class*="Links_wrap_"] .woo-divider-y {
+	color: rgba(var(--hack-color-white), 0.2) !important;
+}
+.yawf-WBV6 .yawf-dialog-outer {
+	display: none;
+}
