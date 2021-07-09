@@ -4,7 +4,8 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @match        https://www.v2ex.com
+// @match        ttps://www.v2ex.com
+// @icon         https://www.google.com/s2/favicons?domain=greasyfork.org
 // @grant        none
 // ==/UserScript==
 
