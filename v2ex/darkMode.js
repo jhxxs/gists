@@ -1,12 +1,21 @@
 // ==UserScript==
-// @name         V2 dark mode hack
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
-// @match        ttps://www.v2ex.com
-// @icon         https://www.google.com/s2/favicons?domain=greasyfork.org
-// @grant        none
+// @name         darkMode
+// @version      0.0.1
+// @author       Kyle
+// @description  为v2ex增强插件适配暗黑模式
+// @match        *://v2ex.com/*
+// @match        *://*.v2ex.com/*
+// @icon         https://www.v2ex.com/static/favicon.ico
+// @grant        GM_xmlhttpRequest
+// @grant        GM_registerMenuCommand
+// @grant        GM_unregisterMenuCommand
+// @grant        GM_openInTab
+// @grant        GM_getValue
+// @grant        GM_setValue
+// @grant        GM_notification
+// @license      GPL-3.0 License
+// @run-at       document-end
+// @namespace    https://github.com/jhxxs/gists/blob/master/v2ex/darkMode.js
 // ==/UserScript==
 
 ;(function () {
