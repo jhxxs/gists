@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,user-scalable=no"
+		/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Auth</title>
+		<link
+			href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="assets/css/index.css" />
+	</head>
+
+	<body>
+		<div class="top_bar"><i class="back"></i></div>
+		<div class="container">
+			<img class="logo" src="assets/image/logo.png" />
+			<div class="tip_box">
+				<h2>The audio platform will obtain the following permissions:</h2>
+				<ul>
+					<li>
+						<i></i>
+						Access your personal information
+					</li>
+					<li>
+						<i></i>
+						Access your avatar/user name and other information
+					</li>
+					<li>
+						<i></i>
+						Access/control your smart home devices, etc.
+					</li>
+				</ul>
+			</div>
+			<form id="authForm" class="form_group" action="authorize" method="POST">
+				<button type="submit" class="sub_btn form_item" id="submit">
+					Allow
+				</button>
+			</form>
+		</div>
+		<!-- <script src="https://cdn.jsdelivr.net/npm/vconsole@3.9.1/dist/vconsole.min.js"></script> -->
+		<script>
+			$(document).ready(function () {
+				// new VConsole()
+				$("#submit").one("click", function () {
+					$(this).attr("disabled", true)
+					$(this).html("Allowing")
+					$("#authForm").submit()
+				})
+			})
+		</script>
+	</body>
+</html>
