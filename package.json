@@ -1,0 +1,27 @@
+{
+  "name": "gists-1",
+  "version": "1.0.0",
+  "description": "自定义脚本",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhxxs/gists.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhxxs/gists/issues"
+  },
+  "homepage": "https://github.com/jhxxs/gists#readme",
+  "dependencies": {
+    "dayjs": "^1.10.7",
+    "ts-node": "^10.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
