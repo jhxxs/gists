@@ -7,8 +7,8 @@
 // @include      http*
 // @require      https://cdn.jsdelivr.net/gh/fuzetsu/userscripts@ec863aa92cea78a20431f92e80ac0e93262136df/wait-for-elements/wait-for-elements.js
 // @grant        none
-// @downloadURL 
-// @updateURL 
+// @downloadURL https://raw.githubusercontent.com/jhxxs/gists/refs/heads/master/imgur-redirect-v2.js
+// @updateURL https://raw.githubusercontent.com/jhxxs/gists/refs/heads/master/imgur-redirect-v2.js
 // ==/UserScript==
 
 (() => {
