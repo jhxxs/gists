@@ -3,7 +3,7 @@
 // @namespace    https://github.com/jhxxs
 // @version      0.0.1
 // @description  Switches all imgur links to the mirror site http://kageurufu.net/imgur
-// @author       Adrien Pyke
+// @author       Kyle
 // @include      http*
 // @require      https://cdn.jsdelivr.net/gh/fuzetsu/userscripts@ec863aa92cea78a20431f92e80ac0e93262136df/wait-for-elements/wait-for-elements.js
 // @grant        none
