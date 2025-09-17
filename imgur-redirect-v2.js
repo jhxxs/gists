@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Imgur Mirror
 // @namespace    https://github.com/jhxxs
-// @version      0.0.1
+// @version      0.0.2
 // @description  Switches all imgur links to the mirror site http://kageurufu.net/imgur
 // @author       Kyle
 // @include      http*
