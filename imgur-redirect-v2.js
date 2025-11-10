@@ -45,7 +45,7 @@
       if (useGif && extension === '.mp4') {
         extension = '.gif';
       }
-      return `http://kageurufu.net/imgur/?${file + extension}`;
+      return `http://https://imgur.kageurufu.net/${file + extension}`;
     } else {
       return null;
     }
