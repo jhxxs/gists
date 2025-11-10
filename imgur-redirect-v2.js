@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Imgur Mirror
 // @namespace    https://github.com/jhxxs
-// @version      0.0.3
-// @description  Switches all imgur links to the mirror site http://kageurufu.net/imgur
+// @version      0.0.4
+// @description  Switches all imgur links to the mirror site https://imgur.kageurufu.net/
 // @author       Kyle
 // @include      http*
 // @require      https://cdn.jsdelivr.net/gh/fuzetsu/userscripts@ec863aa92cea78a20431f92e80ac0e93262136df/wait-for-elements/wait-for-elements.js
